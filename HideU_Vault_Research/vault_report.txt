@@ -1,0 +1,355 @@
+FILE: C4048o0oO0Oo0.java | MATCHES: 36
+  Line 53: int columnIndexOrThrow11 = CursorUtil.getColumnIndexOrThrow(cursorQuery, "recycle_time");
+  Line 118: int columnIndexOrThrow11 = CursorUtil.getColumnIndexOrThrow(cursorQuery, "recycle_time");
+  Line 163: int columnIndexOrThrow11 = CursorUtil.getColumnIndexOrThrow(cursorQuery, "recycle_time");
+  Line 200: int columnIndexOrThrow11 = CursorUtil.getColumnIndexOrThrow(cursorQuery, "recycle_time");
+  Line 245: int columnIndexOrThrow11 = CursorUtil.getColumnIndexOrThrow(cursorQuery, "recycle_time");
+  Line 311: int columnIndexOrThrow11 = CursorUtil.getColumnIndexOrThrow(cursorQuery, "recycle_time");
+  Line 375: int columnIndexOrThrow11 = CursorUtil.getColumnIndexOrThrow(cursorQuery, "recycle_time");
+  Line 418: int columnIndexOrThrow11 = CursorUtil.getColumnIndexOrThrow(cursorQuery, "recycle_time");
+  Line 446: return "INSERT OR REPLACE INTO `file_table` (`name`,`path`,`hide_name`,`parent_id`,`mime_type`,`last_update`,`file_size`,`file_type`,`source_from`,`is_download`,`recycle_time`,`id`) VALUES (?,?,?,?,?,?,?,?,?,?,?,nullif(?, 0))";
+  Line 478: supportSQLiteStatement.bindLong(11, fileEntity.getRecycleTime());
+  Line 508: int columnIndexOrThrow11 = CursorUtil.getColumnIndexOrThrow(cursorQuery, "recycle_time");
+  Line 589: columnIndexOrThrow11 = CursorUtil.getColumnIndexOrThrow(cursorQuery, "recycle_time");
+
+FILE: O0OO0OO.java | MATCHES: 36
+  Line 51: int columnIndexOrThrow11 = CursorUtil.getColumnIndexOrThrow(cursorQuery, "recycle_time");
+  Line 115: int columnIndexOrThrow11 = CursorUtil.getColumnIndexOrThrow(cursorQuery, "recycle_time");
+  Line 159: int columnIndexOrThrow11 = CursorUtil.getColumnIndexOrThrow(cursorQuery, "recycle_time");
+  Line 195: int columnIndexOrThrow11 = CursorUtil.getColumnIndexOrThrow(cursorQuery, "recycle_time");
+  Line 240: int columnIndexOrThrow11 = CursorUtil.getColumnIndexOrThrow(cursorQuery, "recycle_time");
+  Line 305: int columnIndexOrThrow11 = CursorUtil.getColumnIndexOrThrow(cursorQuery, "recycle_time");
+  Line 369: int columnIndexOrThrow11 = CursorUtil.getColumnIndexOrThrow(cursorQuery, "recycle_time");
+  Line 412: int columnIndexOrThrow11 = CursorUtil.getColumnIndexOrThrow(cursorQuery, "recycle_time");
+  Line 440: return "INSERT OR REPLACE INTO `file_table` (`name`,`path`,`hide_name`,`parent_id`,`mime_type`,`last_update`,`file_size`,`file_type`,`source_from`,`is_download`,`recycle_time`,`id`) VALUES (?,?,?,?,?,?,?,?,?,?,?,nullif(?, 0))";
+  Line 472: supportSQLiteStatement.bindLong(11, fileEntity.getRecycleTime());
+  Line 501: int columnIndexOrThrow11 = CursorUtil.getColumnIndexOrThrow(cursorQuery, "recycle_time");
+  Line 581: columnIndexOrThrow11 = CursorUtil.getColumnIndexOrThrow(cursorQuery, "recycle_time");
+
+FILE: InterfaceC6812xd.java | MATCHES: 26
+  Line 61: parcelObtain2.recycle();
+  Line 62: parcelObtain.recycle();
+  Line 82: parcelObtain2.recycle();
+  Line 83: parcelObtain.recycle();
+  Line 105: parcelObtain2.recycle();
+  Line 106: parcelObtain.recycle();
+  Line 125: parcelObtain2.recycle();
+  Line 126: parcelObtain.recycle();
+  Line 146: parcelObtain2.recycle();
+  Line 147: parcelObtain.recycle();
+  Line 164: parcelObtain2.recycle();
+  Line 165: parcelObtain.recycle();
+
+FILE: AbstractC5831ooooO0o.java | MATCHES: 15
+  Line 254: File externalFilesDir = context.getExternalFilesDir(Environment.DIRECTORY_RINGTONES);
+  Line 277: Cursor cursorQuery = context.getContentResolver().query(Uri.parse("content://sms/"), null, null, null, null);
+  Line 290: Cursor cursorQuery = context.getContentResolver().query(Uri.parse("content://call_log/calls"), null, null, null, null);
+  Line 303: Cursor cursorQuery = context.getContentResolver().query(Uri.parse("content://com.android.calendar/calendars"), null, null, null, null);
+  Line 312: Cursor cursorQuery = context.getContentResolver().query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI, null, null, null, null);
+  Line 325: ContentResolver contentResolver = context.getContentResolver();
+  Line 331: contentResolver.insert(Uri.parse("content://call_log/calls"), contentValues);
+  Line 332: contentResolver.delete(Uri.parse("content://call_log/calls"), "number = ?", new String[]{"1"});
+  Line 338: ContentResolver contentResolver;
+  Line 340: if (!OooO0oO(context) || (uriInsert = (contentResolver = context.getContentResolver()).insert(ContactsContract.RawContacts.CONTENT_URI, (contentValues = new ContentValues()))) == null) {
+  Line 348: contentResolver.insert(ContactsContract.Data.CONTENT_URI, contentValues);
+  Line 350: ContentResolver contentResolver2 = context.getContentResolver();
+
+FILE: C4610oOO0oo0o.java | MATCHES: 15
+  Line 18: private static final String OooO0o = "gallery_first_open";
+  Line 19: private static final String OooO0oO = "gallery_open";
+  Line 20: private static final String OooO0oo = "gallery_exit";
+  Line 24: private static final String OooOO0o = "camera_gallery_click";
+  Line 26: private static final String OooOOO = "gallery_view_click";
+  Line 27: private static final String OooOOOO = "gallery_order_click";
+  Line 28: private static final String OooOOOo = "gallery_modify";
+  Line 35: private static final String OooOo0o = "gallery_picture_edit";
+  Line 38: private static final String OooOoO = "gallery_album_create";
+  Line 39: private static final String OooOoOO = "gallery_all_photos_pv";
+  Line 40: private static final String OooOoo0 = "gallery_albums_pv";
+  Line 41: private static final String OooOoo = "gallery_ablums_open";
+
+FILE: C3323n80.java | MATCHES: 15
+  Line 21: private final ContentResolver OooO0Oo;
+  Line 24: C3323n80(List list, InterfaceC3217m80 interfaceC3217m80, InterfaceC4030o0o0OOOo interfaceC4030o0o0OOOo, ContentResolver contentResolver) {
+  Line 25: this(list, OooO0o, interfaceC3217m80, interfaceC4030o0o0OOOo, contentResolver);
+  Line 81: InputStream inputStreamOpenInputStream = null;
+  Line 84: inputStreamOpenInputStream = this.OooO0Oo.openInputStream(uri);
+  Line 85: int iOooO0O0 = com.bumptech.glide.load.OooO00o.OooO0O0(this.OooO0o0, inputStreamOpenInputStream, this.OooO0OO);
+  Line 86: if (inputStreamOpenInputStream != null) {
+  Line 88: inputStreamOpenInputStream.close();
+  Line 97: if (inputStreamOpenInputStream == null) {
+  Line 101: inputStreamOpenInputStream.close();
+  Line 108: if (inputStreamOpenInputStream != null) {
+  Line 110: inputStreamOpenInputStream.close();
+
+FILE: InterfaceC1232Je.java | MATCHES: 14
+  Line 51: parcelObtain2.recycle();
+  Line 52: parcelObtain.recycle();
+  Line 66: parcelObtain2.recycle();
+  Line 67: parcelObtain.recycle();
+  Line 84: parcelObtain2.recycle();
+  Line 85: parcelObtain.recycle();
+  Line 99: parcelObtain2.recycle();
+  Line 100: parcelObtain.recycle();
+  Line 114: parcelObtain2.recycle();
+  Line 115: parcelObtain.recycle();
+  Line 129: parcelObtain2.recycle();
+  Line 130: parcelObtain.recycle();
+
+FILE: InterfaceC6707wd.java | MATCHES: 14
+  Line 54: parcelObtain.recycle();
+  Line 70: parcelObtain2.recycle();
+  Line 71: parcelObtain.recycle();
+  Line 88: parcelObtain.recycle();
+  Line 102: parcelObtain.recycle();
+  Line 116: parcelObtain2.recycle();
+  Line 117: parcelObtain.recycle();
+  Line 129: parcelObtain.recycle();
+  Line 142: parcelObtain.recycle();
+  Line 157: parcelObtain2.recycle();
+  Line 158: parcelObtain.recycle();
+  Line 173: parcelObtain.recycle();
+
+FILE: C2353e50.java | MATCHES: 13
+  Line 738: typedArrayObtainStyledAttributes.recycle();
+  Line 797: this.OoooOoo.recycle();
+  Line 848: bitmap2.recycle();
+  Line 883: bitmap.recycle();
+  Line 918: bitmap.recycle();
+  Line 952: bitmap.recycle();
+  Line 1023: if (bitmap != null && !bitmap.isRecycled()) {
+  Line 1392: cursorQuery = context.getContentResolver().query(Uri.parse(str), new String[]{"orientation"}, null, null, null);
+  Line 1625: interfaceC1632Rf.recycle();
+  Line 1631: bitmap.recycle();
+  Line 1658: c2358OooOO0o.OooO0OO.recycle();
+  Line 1679: c2358OooOO0o.OooO0OO.recycle();
+
+FILE: C3366ne0.java | MATCHES: 13
+  Line 232: H5.OooO00o("unhide", this.OooO);
+  Line 301: public static final C7028ze0 Oooo000(C3366ne0 c3366ne0, Activity activity, FragmentManager fragmentManager, List list, UnHideEnsureDialog.OooO0OO pathBean) {
+  Line 309: public static final C7028ze0 Oooo00O(C3366ne0 c3366ne0, Activity activity, FragmentManager fragmentManager, List list, UnHideEnsureDialog.OooO0OO pathBean) {
+  Line 339: UnHideApkDialog unHideApkDialogOooO00o = (UnHideApkDialog) fragmentManager.findFragmentByTag("UnHideApkDialog");
+  Line 340: if (unHideApkDialogOooO00o == null) {
+  Line 341: unHideApkDialogOooO00o = UnHideApkDialog.OooOOoo.OooO00o(activity, this.OooO0O0, new L2() { // from class: ambercore.ge0
+  Line 344: return C3366ne0.Oooo000(this.OooOO0O, activity, fragmentManager, files, (UnHideEnsureDialog.OooO0OO) obj);
+  Line 348: unHideApkDialogOooO00o.o00000oo(activity, fragmentManager, "UnHideApkDialog");
+  Line 350: UnHideEnsureDialog unHideEnsureDialogOooO00o = (UnHideEnsureDialog) fragmentManager.findFragmentByTag("UnHideEnsureDialog");
+  Line 351: if (unHideEnsureDialogOooO00o == null) {
+  Line 352: unHideEnsureDialogOooO00o = UnHideEnsureDialog.OooOo00.OooO00o(activity, this.OooO0O0, new L2() { // from class: ambercore.he0
+  Line 355: return C3366ne0.Oooo00O(this.OooOO0O, activity, fragmentManager, files, (UnHideEnsureDialog.OooO0OO) obj);
+
+FILE: G5.java | MATCHES: 13
+  Line 85: FileOutputStream fileOutputStream;
+  Line 89: FileOutputStream fileOutputStream2 = null;
+  Line 95: fileOutputStream = new FileOutputStream(file2);
+  Line 103: fileOutputStream.write(bArr);
+  Line 104: fileOutputStream.flush();
+  Line 106: fileOutputStream.close();
+  Line 113: fileOutputStream2 = fileOutputStream;
+  Line 116: if (fileOutputStream2 != null) {
+  Line 118: fileOutputStream2.close();
+  Line 126: fileOutputStream2 = fileOutputStream;
+  Line 127: if (fileOutputStream2 == null) {
+  Line 131: fileOutputStream2.close();
+
+FILE: Kg0.java | MATCHES: 12
+  Line 27: FileOutputStream fileOutputStream;
+  Line 29: FileOutputStream fileOutputStream2 = null;
+  Line 36: fileOutputStream = new FileOutputStream(file);
+  Line 48: fileOutputStream.write(bArr);
+  Line 49: fileOutputStream.flush();
+  Line 50: fileOutputStream.close();
+  Line 53: fileOutputStream2 = fileOutputStream;
+  Line 55: if (fileOutputStream2 == null) {
+  Line 57: fileOutputStream2.close();
+  Line 61: fileOutputStream2 = fileOutputStream;
+  Line 62: if (fileOutputStream2 != null) {
+  Line 64: fileOutputStream2.close();
+
+FILE: C3005k80.java | MATCHES: 12
+  Line 30: private final ContentResolver OooO00o;
+  Line 32: OooO00o(ContentResolver contentResolver) {
+  Line 33: this.OooO00o = contentResolver;
+  Line 38: return this.OooO00o.query(MediaStore.Images.Thumbnails.EXTERNAL_CONTENT_URI, OooO0O0, "kind = 1 AND image_id = ?", new String[]{uri.getLastPathSegment()}, null);
+  Line 45: private final ContentResolver OooO00o;
+  Line 47: OooO0O0(ContentResolver contentResolver) {
+  Line 48: this.OooO00o = contentResolver;
+  Line 53: return this.OooO00o.query(MediaStore.Video.Thumbnails.EXTERNAL_CONTENT_URI, OooO0O0, "kind = 1 AND video_id = ?", new String[]{uri.getLastPathSegment()}, null);
+  Line 58: return OooO0Oo(context, uri, new OooO00o(context.getContentResolver()));
+  Line 62: return OooO0Oo(context, uri, new OooO0O0(context.getContentResolver()));
+  Line 98: return new C3005k80(uri, new C3323n80(com.bumptech.glide.OooO0O0.OooO0Oo(context).OooOO0O().OooO0oO(), interfaceC3217m80, com.bumptech.glide.OooO0O0.OooO0Oo(context).OooO0o(), context.getContentResolver()));
+  Line 108: Log.isLoggable("MediaStoreThumbFetcher", 3);
+
+FILE: C3209m40.java | MATCHES: 11
+  Line 16: private InputStream OooOO0(ContentResolver contentResolver, Uri uri) {
+  Line 17: return ContactsContract.Contacts.openContactPhotoInputStream(contentResolver, uri, true);
+  Line 31: private InputStream OooO(Uri uri, ContentResolver contentResolver) throws FileNotFoundException {
+  Line 35: return OooOO0(contentResolver, uri);
+  Line 38: return contentResolver.openInputStream(uri);
+  Line 41: Uri uriLookupContact = ContactsContract.Contacts.lookupContact(contentResolver, uri);
+  Line 43: return OooOO0(contentResolver, uriLookupContact);
+  Line 53: public C3209m40(ContentResolver contentResolver, Uri uri) {
+  Line 54: super(contentResolver, uri);
+  Line 67: public InputStream OooO0o0(Uri uri, ContentResolver contentResolver) throws FileNotFoundException {
+  Line 68: InputStream inputStreamOooO = OooO(uri, contentResolver);
+
+FILE: C4957oOoo0oo0.java | MATCHES: 11
+  Line 60: InputStream inputStreamOpenInputStream;
+  Line 61: ContentResolver contentResolver = this.OooO0O0.OooO0oO().getContentResolver();
+  Line 63: AssetFileDescriptor assetFileDescriptorOpenAssetFileDescriptor = contentResolver.openAssetFileDescriptor(this.OooO00o, "r");
+  Line 64: inputStreamOpenInputStream = assetFileDescriptorOpenAssetFileDescriptor != null ? assetFileDescriptorOpenAssetFileDescriptor.createInputStream() : null;
+  Line 65: if (inputStreamOpenInputStream == null) {
+  Line 69: inputStreamOpenInputStream = contentResolver.openInputStream(this.OooO00o);
+  Line 70: if (inputStreamOpenInputStream == null) {
+  Line 74: AssetFileDescriptor assetFileDescriptorOpenTypedAssetFile = contentResolver.openTypedAssetFile(this.OooO00o, "image/*", OooO0Oo(), null);
+  Line 75: inputStreamOpenInputStream = assetFileDescriptorOpenTypedAssetFile != null ? assetFileDescriptorOpenTypedAssetFile.createInputStream() : null;
+  Line 76: if (inputStreamOpenInputStream == null) {
+  Line 80: return new C6970z20(AbstractC1762Vf.OooO0O0(Okio.buffer(Okio.source(inputStreamOpenInputStream)), this.OooO0O0.OooO0oO(), new C4948oOoo0o(this.OooO00o)), contentResolver.getType(this.OooO00o), DataSource.DISK);
+
+FILE: AbstractC4809oOo0000o.java | MATCHES: 11
+  Line 33: FileOutputStream fileOutputStream = new FileOutputStream(file, true);
+  Line 35: fileOutputStream.write(array);
+  Line 37: AbstractC4751oOOoOOOO.OooO00o(fileOutputStream, null);
+  Line 46: J70.OooO0OO(new BufferedReader(new InputStreamReader(new FileInputStream(file), charset)), action);
+  Line 86: InputStreamReader inputStreamReader = new InputStreamReader(new FileInputStream(file), charset);
+  Line 106: FileOutputStream fileOutputStream = new FileOutputStream(file);
+  Line 108: OooOOOo(fileOutputStream, text, charset);
+  Line 110: AbstractC4751oOOoOOOO.OooO00o(fileOutputStream, null);
+  Line 118: FileOutputStream fileOutputStream = new FileOutputStream(file);
+  Line 120: fileOutputStream.write(array);
+  Line 122: AbstractC4751oOOoOOOO.OooO00o(fileOutputStream, null);
+
+FILE: C1590Qj.java | MATCHES: 10
+  Line 318: C3950o0Ooo0O0.OooO0OO("Qin rePositionItemAfterRestoreIfNeed isDefaultLauncher " + z4);
+  Line 344: if (c6507uj5.OooOOO() == LauncherShortcut.Shortcut.RESTORE) {
+  Line 354: } else if (c6507uj5.OooOOO() == LauncherShortcut.Shortcut.RESTORE) {
+  Line 378: } else if (c6507ujOooOOo.OooOOO() == LauncherShortcut.Shortcut.RESTORE) {
+  Line 397: LauncherShortcut.Shortcut shortcut = LauncherShortcut.Shortcut.RESTORE;
+  Line 422: c6507ujOooOoOO2.Oooo0(LauncherShortcut.Shortcut.RESTORE.name());
+  Line 685: if (c6507uj2.OooOOO() == LauncherShortcut.Shortcut.RESTORE) {
+  Line 699: } else if (c6507uj.OooOOO() != LauncherShortcut.Shortcut.RESTORE) {
+  Line 731: if (c6507uj.OooOOO() == LauncherShortcut.Shortcut.RESTORE) {
+  Line 761: } else if (c6507ujOooOOo.OooOOO() != LauncherShortcut.Shortcut.RESTORE) {
+
+FILE: Df0.java | MATCHES: 9
+  Line 17: private final ContentResolver OooO00o;
+  Line 29: public OooO00o(ContentResolver contentResolver) {
+  Line 30: this.OooO00o = contentResolver;
+  Line 35: private final ContentResolver OooO00o;
+  Line 47: public OooO0O0(ContentResolver contentResolver) {
+  Line 48: this.OooO00o = contentResolver;
+  Line 58: private final ContentResolver OooO00o;
+  Line 70: public C1033OooO0Oo(ContentResolver contentResolver) {
+  Line 71: this.OooO00o = contentResolver;
+
+FILE: U6.java | MATCHES: 8
+  Line 103: C5922p90.OooOOO("hideapp_guide_layer_restore", null, 2, null);
+  Line 111: C5922p90.OooOOO("hideapp_restore_widget_click", null, 2, null);
+  Line 143: C5922p90.OooOOO("hideapp_hidden_app_restore_click", null, 2, null);
+  Line 147: C5922p90.OooOOO("hideapp_hidden_app_unhide_undo", null, 2, null);
+  Line 151: C5922p90.OooOOO("restore_launcher_success", null, 2, null);
+  Line 292: C5922p90.OooOOO0("hideapp_restore_change_click", linkedHashMap);
+  Line 299: C5922p90.OooOOO0("hideapp_restore_dialog_pv", linkedHashMap);
+  Line 307: C5922p90.OooOOO0("hideapp_hidden_app_unhide", linkedHashMap);
+
+FILE: AbstractC2046b90.java | MATCHES: 8
+  Line 131: FileOutputStream fileOutputStream = new FileOutputStream(file);
+  Line 133: bitmap.compress(Bitmap.CompressFormat.JPEG, 100, fileOutputStream);
+  Line 134: fileOutputStream.flush();
+  Line 136: AbstractC4751oOOoOOOO.OooO00o(fileOutputStream, null);
+  Line 138: if (z && !bitmap.isRecycled()) {
+  Line 139: bitmap.recycle();
+  Line 162: bitmap.recycle();
+  Line 185: originalBitmap.recycle();
+
+FILE: FragmentC5162oo0O00.java | MATCHES: 8
+  Line 22: public class FragmentC5162oo0O00 extends FragmentC4310oO00OooO implements InterfaceC2375eE, RecyclerItemClickListener.OooO0O0 {
+  Line 23: private RecyclerView OooOOOo;
+  Line 28: @Override // com.anddoes.launcher.ui.RecyclerItemClickListener.OooO0O0
+  Line 37: @Override // com.anddoes.launcher.ui.RecyclerItemClickListener.OooO0O0
+  Line 45: public void OooO0O0(RecyclerView.ViewHolder viewHolder) {
+  Line 51: this.OooOOOo = new RecyclerView(viewGroup.getContext());
+  Line 78: itemTouchHelper.attachToRecyclerView(this.OooOOOo);
+  Line 79: this.OooOOOo.addOnItemTouchListener(new RecyclerItemClickListener(getActivity(), this.OooOOOo, this));
+
+FILE: Sl0.java | MATCHES: 8
+  Line 165: final /* synthetic */ RecyclerView OooOOO0;
+  Line 173: OooO0OO(RecyclerView recyclerView, InterfaceC4966oOooO0O0 interfaceC4966oOooO0O0) {
+  Line 175: this.OooOOO0 = recyclerView;
+  Line 223: androidx.recyclerview.widget.RecyclerView r5 = r4.OooOOO0
+  Line 242: androidx.recyclerview.widget.RecyclerView r5 = r4.OooOOO0
+  Line 296: androidx.recyclerview.widget.RecyclerView r5 = r4.OooOOO0
+  Line 508: public final Object OooO0oO(RecyclerView recyclerView, InterfaceC4966oOooO0O0 interfaceC4966oOooO0O0) {
+  Line 509: return AbstractC4505oO0oo0O0.OooO0oO(C5469ooOO00O.OooO0OO(), new OooO0OO(recyclerView, null), interfaceC4966oOooO0O0);
+
+FILE: ViewOnClickListenerC5154oo00ooO.java | MATCHES: 8
+  Line 25: public class ViewOnClickListenerC5154oo00ooO extends FragmentC4310oO00OooO implements InterfaceC2375eE, RecyclerItemClickListener.OooO0O0, View.OnClickListener {
+  Line 26: private RecyclerView OooOOOo;
+  Line 34: @Override // com.anddoes.launcher.ui.RecyclerItemClickListener.OooO0O0
+  Line 38: @Override // com.anddoes.launcher.ui.RecyclerItemClickListener.OooO0O0
+  Line 53: public void OooO0O0(RecyclerView.ViewHolder viewHolder) {
+  Line 64: this.OooOOOo = (RecyclerView) viewInflate.findViewById(R.id.list);
+  Line 131: itemTouchHelper.attachToRecyclerView(this.OooOOOo);
+  Line 132: this.OooOOOo.addOnItemTouchListener(new RecyclerItemClickListener(getActivity(), this.OooOOOo, this));
+
+FILE: AbstractC7048zn.java | MATCHES: 8
+  Line 31: private void OooO00o(ContentResolver contentResolver, C5172oo0O00o0 c5172oo0O00o0) {
+  Line 46: contentResolver.insert(LauncherSettings$Favorites.getContentUri(WorkspaceType.Default), contentValues);
+  Line 94: ContentResolver contentResolver = context.getContentResolver();
+  Line 96: ArrayList<C5172oo0O00o0> arrayListOooO00o = C5172oo0O00o0.OooO00o(contentResolver, OooO0OO());
+  Line 105: contentResolver.delete(LauncherSettings$Favorites.getContentUri(WorkspaceType.Default), null, null);
+  Line 113: OooO00o(contentResolver, c5172oo0O00o0OooO0O0);
+  Line 191: public boolean OooOO0(android.content.ContentResolver r9, java.util.List r10) {
+  Line 246: throw new UnsupportedOperationException("Method not decompiled: ambercore.AbstractC7048zn.OooOO0(android.content.ContentResolver, java.util.List):boolean");
+
+FILE: C2619gb.java | MATCHES: 8
+  Line 23: public RecycleViewPreference OooOo;
+  Line 34: cursorQuery = context.getContentResolver().query(uri, strArr2, str, strArr, null);
+  Line 68: RecycleViewPreference recycleViewPreference = (RecycleViewPreference) findPreference(resources.getString(R$string.pref_wallpaper_select_key));
+  Line 69: this.OooOo = recycleViewPreference;
+  Line 70: recycleViewPreference.OooO0o0(this);
+  Line 78: if (DocumentsContract.isDocumentUri(context, uri)) {
+  Line 79: String documentId = DocumentsContract.getDocumentId(uri);
+  Line 81: return OooOOOO(context, MediaStore.Images.Media.EXTERNAL_CONTENT_URI, "_id=?", new String[]{documentId.split(CertificateUtil.DELIMITER)[1]});
+
+FILE: C2901jA.java | MATCHES: 7
+  Line 44: this.OooO0O0.getContentResolver().unregisterContentObserver(this);
+  Line 61: if (context.getContentResolver() != null && !this.OooO0OO.booleanValue()) {
+  Line 74: context.getContentResolver().registerContentObserver(uriFor, true, this);
+  Line 86: if (context != null && context.getContentResolver() != null && (arrayList = this.OooO00o) != null && !arrayList.isEmpty()) {
+  Line 88: i = Settings.Global.getInt(this.OooO0O0.getContentResolver(), "force_fsg_nav_bar", 0);
+  Line 91: i = Settings.Global.getInt(this.OooO0O0.getContentResolver(), "navigationbar_is_min", 0);
+  Line 93: i = Settings.System.getInt(this.OooO0O0.getContentResolver(), "navigationbar_is_min", 0);
+
+FILE: YN.java | MATCHES: 6
+  Line 11: private static final String OooO0O0 = "Recyclebin_first_open";
+  Line 12: private static final String OooO0OO = "Recyclebin_open";
+  Line 13: private static final String OooO0Oo = "Recyclebin_restore_click";
+  Line 14: private static final String OooO0o0 = "Recyclebin_delete_click";
+  Line 15: private static final String OooO0o = "Recyclebin_clear_click";
+  Line 16: private static final String OooO0oO = "Recyclebin_file_open";
+
+FILE: FragmentC5025oV.java | MATCHES: 6
+  Line 17: public class FragmentC5025oV extends FragmentC4310oO00OooO implements RecyclerItemClickListener.OooO0O0 {
+  Line 20: protected RecyclerView OooOOo0;
+  Line 24: @Override // com.anddoes.launcher.ui.RecyclerItemClickListener.OooO0O0
+  Line 28: @Override // com.anddoes.launcher.ui.RecyclerItemClickListener.OooO0O0
+  Line 42: this.OooOOo0 = (RecyclerView) this.OooOOOo.findViewById(R.id.list);
+  Line 47: this.OooOOo0.addOnItemTouchListener(new RecyclerItemClickListener(getActivity(), this.OooOOo0, this));
+
+FILE: T0.java | MATCHES: 6
+  Line 61: File file = new File(applicationContext.getFilesDir(), "images");
+  Line 65: BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(new FileOutputStream(new File(file, "folder_bg.png")));
+  Line 72: bitmapCreateBitmap.recycle();
+  Line 76: bitmapOooO0oo.recycle();
+  Line 81: bitmapOooO0oo.recycle();
+  Line 85: bitmapOooO0oo.recycle();
+
+FILE: C5450ooO0oOOO.java | MATCHES: 6
+  Line 258: fileOooOO0O.renameTo(fileOooOO0);
+  Line 322: BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(this.OooOOO0), Fg0.OooO00o));
+  Line 346: this.OooOOoo = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(this.OooOO0o, true), Fg0.OooO00o));
+  Line 591: C6868y40 c6868y40 = new C6868y40(new FileInputStream(this.OooOO0o), Fg0.OooO00o);
+  Line 611: this.OooOOoo = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(this.OooOO0o, true), Fg0.OooO00o));
+  Line 627: if (!file.renameTo(file2)) {
+
